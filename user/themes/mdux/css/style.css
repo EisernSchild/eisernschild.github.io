@@ -1,0 +1,161 @@
+/*
+Theme Name: MDUX
+Author: Tyler Woods
+Description: MDUX customizations for MaterializeCSS
+Version: 0.9.5
+*/
+
+#color-bar {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: -2;
+}
+#nav-bar {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(48, 63, 159);
+}
+#content {
+    width: auto;
+    z-index: 3;
+    position: relative;
+}
+#wrapper {
+    min-height: 100%;
+}
+.panel {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    background-color: #FFF;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.16),0 0 2px 0 rgba(0,0,0,.12);
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+@media (min-width: 544px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+  .container-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+  }
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid:before, .container-fluid:after {
+  content: " ";
+  display: table;
+}
+
+.container-fluid:after {
+  clear: both;
+}
+.nav-shadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.nav-noshadow {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+}
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+h4.shadow {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+span.list-blog-date {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #1976d2;
+    code, samp, kbd {
+    	font-family: "Courier New", Courier, monospace, sans-serif;
+    	text-align: left;
+    	color: #555;
+    	}
+    pre code {
+    	line-height: 1.6em;
+    	font-size: 11px;
+    	}
+    pre {
+    	padding: 0.1em 0.5em 0.3em 0.7em;
+    	border-left: 11px solid #ccc;
+    	margin: 1.7em 0 1.7em 0.3em;
+    	overflow: auto;
+    	width: 93%;
+    	}
+    /* target IE7 and IE6 */
+    *:first-child+html pre {
+    	padding-bottom: 2em;
+    	overflow-y: hidden;
+    	overflow: visible;
+    	overflow-x: auto;
+    	}
+    * html pre {
+    	padding-bottom: 2em;
+    	overflow: visible;
+    	overflow-x: auto;
+    	}
+}
+#paper {
+    width: auto;
+    z-index: 3;
+    position: relative;
+    margin-top: -250px;
+}

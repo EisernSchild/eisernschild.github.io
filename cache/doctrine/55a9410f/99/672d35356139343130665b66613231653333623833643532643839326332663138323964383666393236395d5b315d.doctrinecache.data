@@ -1,0 +1,22 @@
+1611602363
+a:2:{s:7:"content";s:1359:"<h2>Vireio Perception and Corona lockdown</h2>
+<p>Welcome to my blog !</p>
+<p>The last two years i was a bit groggy, so Vireio Perception did stagnate. Due to the Corona lockdowns we had (or still have) i finally have enough time to finalize the driver.</p>
+<p>What i did so far : </p>
+<h3>Adding Aquilinus to the Vireio</h3>
+<p>Aquilinus is a Node-based graphical 3D Modification Studio. That means it bypasses Direct3D (9, 10, 11) to provide any option to change graphics within games.</p>
+<p>Any node within Aquilinus represents a plugin. That means that Vireio Perception now is subdivided into different sub-"sections", or nodes.</p>
+<p>Following nodes were part of Vireio Perception v4 alpha 1-3:</p>
+<ul>
+<li>Vireio Matrix Modifier (D3D9 + D3D11)</li>
+<li>Vireio Stereo Splitter (D3D9 + D3D11)</li>
+<li>Vireio Stereo Presenter</li>
+<li>Vireio Cinema</li>
+<li>Vireio Constructor (D3D11)</li>
+<li>Oculus (Tracker + DirectMode)</li>
+<li>OpenVR (Tracker + DirectMode)</li>
+</ul>
+<p>I will explain the different nodes within this blog.</p>
+<h3>Implementing Dear ImGui to Vireio Perception</h3>
+<p><a href="https://github.com/ocornut/imgui">Dear ImGui</a> is an excellent option to provide a graphical user interface to any apllication.</p>
+<p>I did implement this to Vireio Perception (and Aquilinus in case), so now this makes it greatly user-friendly.</p>";s:12:"content_meta";N;}
